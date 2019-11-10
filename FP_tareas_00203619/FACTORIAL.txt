@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main ( ){ 
+    int a, b, fact;
+    cout <<"Calcular el factorial del numero entero que ingrese: "<<endl;
+    
+    cout<<"Por favor ingrese su numero: "<<endl;
+    cin>>a;
+    
+    fact=1;
+    
+    if (a == 0){
+        cout << "El factorial del numero ingresado es " <<fact<<endl;
+    }
+    else {
+        for (b=1 ; b<=a ; b++) {
+            fact=b*fact;
+        }
+    }
+    cout << "El factorial es: " <<fact<<endl;
+
+    return 0;
+}

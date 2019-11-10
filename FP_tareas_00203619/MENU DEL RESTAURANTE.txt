@@ -1,0 +1,62 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int menu;
+   
+    cout<<"Bienvenidos al restaurante el rinconsito "<<endl;
+    cout<<"Selecione una opcion de comida "<<endl;
+    cout<<"1.Desayuno \n2.Almuerzo \n3.Cena \n4.Postre \n5.Antojitos \n6.Bebidas"<<endl;
+    cin>>menu;
+   
+    if(menu==1){
+        int submenu;
+       
+        cout<<"Seleccione su opcion de Desayuno: "<<endl;
+        cout<<"1.Desayuno Tradicional \n2.Huevo con vegetales \n3. Panqueques "<<endl;
+        cin>>submenu;
+    }
+   
+    if(menu==2){
+        int submenu2;
+       
+        cout<<"Selecione su opcion de Almuerzo: "<<endl;
+        cout<<"1.Carne \n2.Pollo \n3.Lonja de pescado "<<endl;
+        cin>>submenu2;
+    }  
+   
+    if(menu==3){
+        int submenu3;
+       
+        cout<<"Seleccione su opcion de Cena"<<endl;
+        cout<<"1.Macarrones con queso \n2.Pupusas \n3.Tamales "<<endl;
+        cin>>submenu3;
+    }
+   
+    if(menu==4){
+        int submenu4;
+       
+        cout<<"Seleccione su opcion de Postre: "<<endl;
+        cout<<"1.Pastel de chocolate \n2.Helado \n3.Cheesecake "<<endl;
+        cin>>submenu4;
+    }
+   
+   if(menu==5){
+       int submenu5;
+       
+       cout<<"Seleccione su antojito: "<<endl;
+       cout<<"1.Empanadas \n2.Pasteles \n3.Yuca frita "<<endl;
+       cin>>submenu5;
+   }
+   
+   if(menu==6){
+       int submenu6;
+       
+       cout<<"Seleccione su bebida : "<<endl;
+       cout<<"1.Chocolate \n2.Cafe \n3.Leche \n4.Jugo de naranja \n5.Soda \n6.Refresco natural "<<endl;
+       cin>>submenu6;
+   }
+
+    return 0;
+}
